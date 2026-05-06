@@ -4,9 +4,9 @@ Apresentação web utilizada no **Brasil FinOps Foundation Meetup · Belo Horizo
 
 ## Sobre
 
-`finops-clubpetro.html` é um arquivo HTML auto-contido que funciona como deck de slides interativo para a palestra **"O futuro da operação Cloud é agêntico"**. A apresentação conta como a ClubPetro construiu um Agent de FinOps apoiado por agentes de Engenharia e SRE, rodando sobre a plataforma open source **OpenClaw** com modelos Claude (Sonnet), integrado à GCP e ao Discord.
+`index.html` é um arquivo HTML auto-contido que funciona como deck de slides interativo para a palestra **"O futuro da operação Cloud é agêntico"**. A apresentação conta como a ClubPetro construiu um Agent de FinOps apoiado por agentes de Engenharia e SRE, rodando sobre a plataforma open source **OpenClaw** com modelos Claude (Sonnet), integrado à GCP e ao Discord.
 
-## Estrutura dos slides (14 slides)
+## Estrutura dos slides (15 slides)
 
 | # | Seção | Conteúdo |
 |---|-------|----------|
@@ -21,13 +21,14 @@ Apresentação web utilizada no **Brasil FinOps Foundation Meetup · Belo Horizo
 | 009 | Como funciona | Exemplos de notificações vivas geradas pelo Agent |
 | 010 | Segurança e Infraestrutura | Governança: VM isolada na GCP, Service Accounts read-only, validação humana |
 | 011 | Stack e Status | Por que OpenClaw + Claude Sonnet; status piloto em produção |
-| 012 | Resultado | Ganhos reais de produtividade para FinOps |
-| 013 | Encerramento | Considerações finais |
-| 014 | Quem fala | Speaker e abertura para perguntas |
+| 012 | Resultado · Impacto | Ganhos reais de produtividade para FinOps |
+| 013 | Resultado · Dashboard | Custo por SKU, distribuição por projeto, evolução por mês e justificativas de desvio em tela única |
+| 014 | Encerramento | Considerações finais |
+| 015 | Quem fala | Speaker e abertura para perguntas |
 
 ## Como usar
 
-Abra `finops-clubpetro.html` diretamente no navegador. A navegação é feita com **scroll** (scroll-snap por slide) ou pelas setas do teclado. Nenhuma dependência externa além de fontes do Google Fonts (Inter Tight, Fraunces, JetBrains Mono).
+Abra `index.html` diretamente no navegador. A navegação é feita com **scroll** (scroll-snap por slide) ou pelas setas do teclado. Nenhuma dependência externa além de fontes do Google Fonts (Inter Tight, Fraunces, JetBrains Mono).
 
 ## Docker
 
